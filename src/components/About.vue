@@ -1,17 +1,15 @@
 <template>
-    <div class="container"> <strong>
-      <p class="blue-text">I am an independent individual who values autonomy and self-reliance. 
-         I make decisions <br> based on my own judgment and don't rely heavily on others for validation or direction.  <br>
-         I take pride in my ability to manage tasks and solve problems on my own. 
-         Being independent  <br>allows me to pursue my interests and goals with determination and confidence. 
-         I am self-motivated, resourceful, and enjoy the freedom that comes with being independent.</p>
+    <div class="container-fluid"> <strong>
+      <p class="blue-text">I am a Bachelor of Science in Information Technology student. 
+       <br> I'm not just navigating coursework, I'm also facing life's challenges head-on with resilience and determination. <br>
+       persevere, driven by a strong individual spirit to succeed in both my personal and academic pursuits.</p>
         </strong>
     </div>
   </template>
   
   <style scoped>
-  .container {
-    background-image: url('@/assets/aboutgina.jpg'); 
+  .container-fluid{
+    background-image: url('@/assets/robertback.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -26,7 +24,7 @@
   }
   
   .blue-text {
-    color: black; 
+    color: #fff; 
   }
   </style>
   

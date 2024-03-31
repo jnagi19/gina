@@ -2,13 +2,13 @@
     <div id="home" class="pink-bg">
       <div class="container">
         <div class="content">
-          <h1>Hello, I'm Gina</h1>
+          <h1>Hello! Its me Robert</h1>
           <div class="animated-picture"></div>
           <p>Welcome to My Portfolio Website
-            <br> I am passionate about in designing web
-            <br> and I also studied graphic design.
+            <br> I am a hard-working and driven individual 
+            <br> who isn't afraid to face a challenge but enjoy the challenges.
           </p>
-          <p class="name">BSIT Student</p> <!-- Add the name -->
+          <p class="name">Bachelor Of Science Information Technology Student</p> <!-- Add the name -->
         </div>
       </div>
     </div>
@@ -35,9 +35,9 @@
   }
   
   .animated-picture {
-    width: 200px;
-    height: 200px;
-    background-image: url('@/assets/gin.jpg');
+    width: 390px;
+    height: 400px;
+    background-image: url('@/assets/robert1.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -55,7 +55,7 @@
   
   
   .name {
-    animation: eraseName 5s linear infinite; 
+    animation: eraseName 6s linear infinite; 
   }
   
   @keyframes eraseName {
@@ -74,7 +74,8 @@
   
   /* Background image */
   .pink-bg {
-    background-image: url('@/assets/rose.jpg'); 
+    background-color: whitesmoke;
+    /* background-image: url('@/assets/robertback.png');  */
     background-size: cover; 
     background-position: center; 
     margin: 0; 

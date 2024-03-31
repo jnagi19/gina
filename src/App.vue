@@ -1,16 +1,17 @@
 <template>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <div id="app" :class="{ 'dark-mode': darkMode }">
     <!-- Navbar -->
     <nav :class="{ 'navbar-dark bg-dark': !darkMode, 'navbar-light bg-light': darkMode }" class="navbar">
       <div class="container d-flex justify-content-between align-items-center"> 
         <div class="d-flex flex-row align-items-center">
-          <router-link to="/" class="navbar-brand">Home</router-link>
-          <router-link to="/about" class="nav-link ml-3 mr-3">About</router-link> 
-          <router-link to="/contact" class="nav-link ml-3 mr-3">Contact</router-link> 
+          <router-link to="/" class="navbar-brand"> Home</router-link>
+          <router-link to="/about" class="nav-link ml-3 mr-3"> About</router-link> 
+          <router-link to="/contact" class="nav-link ml-3 mr-3"> Contact</router-link> 
 
         </div>
         <div>
-          <button @click="toggleMode" class="btn" :class="{ 'btn-light': !darkMode, 'btn-dark': darkMode }">Toggle Mode</button>
+          <button @click="toggleMode" class="bi" :class="{ 'bi bi-moon-fill': !darkMode, 'bi bi-moon': darkMode }"></button>
         </div>
       </div>
     </nav>
@@ -32,11 +33,12 @@
         <a href="#" class="social-icon">
           <img src="@/assets/github1.png" alt="GitHub" class="icon">
         </a>
-        <a href="#" class="social-icon">
-          <img src="@/assets/linkedin1.png" alt="LinkedIn" class="icon">
-        </a>
+
       </div>
     </footer>
+    <div>
+          <p>Created Work by:Robertsanchez.com</p>
+        </div>
   </div>
 </template>
 
@@ -80,7 +82,7 @@ export default {
 }
 
 .router-link-exact-active {
-  color: #42b983 !important;
+  color: blue !important;
 }
 
 .dark-mode .navbar-brand,
@@ -89,7 +91,7 @@ export default {
 }
 
 .dark-mode .router-link-exact-active {
-  color: #42b983 !important;
+  color: blue !important;
 }
 
 .content {

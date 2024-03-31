@@ -3,16 +3,16 @@
       <h4>Personal Information</h4>
       <div class="contact-info">
         <div class="contact-column">
-          <p><strong>Name:</strong> Gina Olpos</p>
-          <p><strong>Gender:</strong> Female</p>
-          <p><strong>Birthdate:</strong>December 19 1999</p>
-          <p><strong>Age:</strong> 22</p>
+          <p><strong>Name:</strong> Robert Sanchez</p>
+          <p><strong>Gender:</strong> Male</p>
+          <p><strong>Birthdate:</strong> October 9 2000</p>
+          <p><strong>Age:</strong> 23</p>
         </div>
         <div class="contact-column">
-          <p><strong>Address:</strong> Ibabao Cordova Cebu</p>
+          <p><strong>Address:</strong> Babang Cordova Cebu</p>
           <p><strong>School: </strong> Cordova Public College</p>
           <p><strong>Course: </strong> Bachelor of Science and Information Technology</p>
-          <p><strong>Email Address:</strong> olposgina@gmail.com</p>
+          <p><strong>Email Address:</strong> Johnrobertsanchez81@gmail.com</p>
         </div>
       </div>
     </div>
@@ -25,12 +25,12 @@
     flex-direction: column;
     align-items: flex-start; 
     text-align: left; 
-    background-image: url('@/assets/background.png'); 
+    background-image: url('@/assets/robertback.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     padding: 200px; 
     border-radius: 10px; 
-    color: #333; 
+    color: #fff; 
   }
   
   .contact-info {
